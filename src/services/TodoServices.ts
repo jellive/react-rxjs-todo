@@ -1,5 +1,5 @@
 import { BehaviorSubject, Observable } from 'rxjs'
-import { TodoItem } from '../interfaces/TodoItem'
+import { TodoItem } from '../models/TodoItem'
 
 class TodoServiceController {
   nextId = 3
