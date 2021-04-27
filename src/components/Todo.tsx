@@ -8,7 +8,14 @@ interface TodoProps {
 
 const Todo: React.FC<TodoProps> = ({ todoItem }) => {
   return (
-    <p style={{ ...kTodoContentTitle, textDecoration: todoItem.isDone ? 'line-through' : 'none' }}>{todoItem.content}</p>
+    <p
+      style={{
+        ...kTodoContentTitle,
+        textDecoration: todoItem.isDone ? 'line-through' : 'none'
+      }}
+    >
+      {todoItem.content}
+    </p>
   )
 }
 

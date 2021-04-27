@@ -23,7 +23,9 @@ const TodoAdd: React.FC<TodoAddProps> = ({ addTodo }) => {
           value={content}
           onChange={changeContent}
         />
-        <button type="submit" style={kButton}>추가</button>
+        <button type="submit" style={kButton}>
+          추가
+        </button>
       </form>
       <hr style={{ width: '100%' }} />
     </>
